@@ -163,26 +163,7 @@ tagList(
                           actionButton(ns("btn_total"), "TOTAL",
                                        class = "pill-button active",
                                        style = "background-color: #e6f4ff; color: #0f3b66; border: 1px solid #0f3b66; border-radius: 20px; padding: 6px 18px; font-weight: 600;")
-                        ),
-                       # tags$div(
-                       #   style = "position: relative; display: inline-block;",
-                       #   actionButton(
-                       #     ns("btn_payer"),
-                       #     HTML(paste0("BY PAYER ", "<span class='info-icon' data-target='", ns("payer_help"), "'>i</span>")),
-                       #     class = "pill-button",
-                       #     style = "background-color: #e6f4ff; color: #0f3b66; border: 1px solid #0f3b66; border-radius: 20px; padding: 6px 18px; font-weight: 600;"
-                       #   ),
-                       #   tags$div(
-                       #     id = ns("payer_help"),
-                       #     class = "info-bubble info-bubble-popup",
-                       #     tags$p("Compare how much employers versus workers contribute. Use the chart to see how shares change.", style = "margin: 0 0 6px 0;"),
-                       #      tags$a(
-                       #         href = "#",
-                       #         onclick = "document.querySelector('a[data-value=\"Guide\"]').click(); return false;",
-                       #       "Learn more"
-                       #     )
-                       #   )
-                       # ),
+                        ),                     
                        tags$div(
                          style = "position: relative; display: inline-block;",
                          actionButton(
